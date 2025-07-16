@@ -206,7 +206,6 @@ function Movie({ movie, handleSelectedMovie }) {
   );
 }
 function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
-  const KEY = "fe2af25f";
   const [movie, setMovie] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const [userRating, setUserRating] = useState("");
@@ -246,7 +245,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
       async function getMoviesDetails() {
         setIsLoading(true);
         const res = await fetch(
-          `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`
+          `https://www.omdbapi.com/?apikey=fe2af25f&i=${selectedId}`
         );
         const data = await res.json();
         console.log(data);
