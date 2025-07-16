@@ -349,16 +349,16 @@ body {
     align-items: center;
     height: 5rem;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
   .logo {
     display: flex;
     align-self: center;
-    width: 30%;
+    width: 40%;
     gap: 0;
   }
   .logo span {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .logo h1 {
     font-size: 1.5rem;
@@ -366,11 +366,11 @@ body {
   .search {
     height: 60%;
     text-align: center;
-    width: 15rem;
-    font-size: 1.2rem;
+    width: 13rem;
+    font-size: 1rem;
   }
   .num-results {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .list li {
     display: flex;
